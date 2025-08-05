@@ -46,6 +46,6 @@
 ###
 
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=Johnkoderr&theme=synthwave" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Johnkoder&theme=synthwave" alt="GitHub Streak" />
 </a>
 
