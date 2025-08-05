@@ -1,11 +1,15 @@
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-</div>
+
+<h1 align="center">Hey there! 👋</h1>
 
 ###
 
-<h1 align="center">Hey there! 👋</h1>
+
+<div align="center">
+  <a href="https://x.com/Johnkoderr" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+  </a>
+</div>
 
 ###
 
@@ -13,7 +17,7 @@
 
 ###
 
-<p align="left">I'm John Alexis from Philippines<br><br>- 🔭 I’m a computer science student<br>- 📚 I'm currently learning web development<br>- ⚡ In my free time I read and edit videos</p>
+<p align="left">I'm <strong>John Alexis</strong> from Philippines<br><br>- 🔭 I’m a computer science student<br>- 📚 I'm currently learning web development<br>- ⚡ In my free time I read and edit videos</p>
 
 ###
 
