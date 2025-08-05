@@ -41,9 +41,8 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
 </div>
 
 ###
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Johnkoderr)](https://git.io/streak-stats)
