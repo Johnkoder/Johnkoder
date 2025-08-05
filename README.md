@@ -45,4 +45,4 @@
 
 ###
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Johnkoderr)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Johnkoderr&theme=synthwave)](https://git.io/streak-stats)
