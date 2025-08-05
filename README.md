@@ -10,12 +10,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouza.maurodesouza&"  />
-</div>
-
-###
-
 <h1 align="center">Hey there! 👋</h1>
 
 ###
@@ -45,7 +39,6 @@
 
 ###
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=Johnkoder&theme=synthwave" alt="GitHub Streak" />
-</a>
-
+<div align="center">
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Johnkoder&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" /></a>
+</div>
