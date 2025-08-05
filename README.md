@@ -17,7 +17,7 @@
 
 ###
 
-<p align="left">I'm <strong>John Alexis</strong> from Philippines<br><br>- 🔭 I’m a computer science student<br>- 📚 I'm currently learning web development<br>- ⚡ In my free time I read and edit videos</p>
+<p align="left">I'm <strong>John Alexis</strong> from Philippines<br><br>- 🔭 I’m a computer science student<br>- 📚 I'm currently learning web development<br></p>
 
 ###
 
