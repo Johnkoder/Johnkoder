@@ -13,7 +13,6 @@
   I'm <strong>John Alexis</strong> from Philippines<br><br>
   - 🔭 I’m a computer science student<br>
   - 📚 I'm currently learning web development and graphic design<br>
-  - 🎓 Currently taking The Odin Project
 </p>
 
 ###
