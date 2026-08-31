@@ -1,25 +1,15 @@
+<h1 align="center">John Alexis — Computer Science Student & Software Developer</h1>
 
-
-<h1 align="center">Hey there! 👋</h1>
-
-
-###
-
-<h3 align="left">👩‍💻  About Me</h3>
-
-###
+<h3 align="left">👩‍💻 About Me</h3>
 
 <p align="left">
-  I'm <strong>John Alexis</strong> from Philippines<br><br>
-  - 🔭 I’m a computer science student<br>
+  I'm <strong>John Alexis</strong> from the Philippines.<br><br>
+  - 🔭 I’m a computer science student and software developer<br>
   - 📚 I'm currently learning web development and graphic design<br>
+  - 🚀 I like taking projects from idea → design → implementation → testing → release<br>
 </p>
 
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
+<h3 align="left">🛠 Languages and Tools</h3>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
@@ -39,7 +29,28 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo" />
 </div>
 
-###
+<h3 align="left">🔧 Developer Tools</h3>
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo" />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/vercel/white" height="36" alt="vercel logo" />
+</div>
+
+<h3 align="left">🚀 Featured Vibe-Coded Projects</h3>
+
+<p>
+  These are apps I built through <strong>AI-assisted / vibe-coding workflows</strong>, taking ideas through design, implementation, testing, and release.
+</p>
+
+- 🏋️ <strong><a href="https://github.com/Johnkoder/rankfit-official">RankFit</a></strong> — A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
+- 📚 <strong><a href="https://github.com/Johnkoder/book-rank-official">BookRank</a></strong> — An offline-first Android PDF reading tracker with bookmarks, reading statistics, ranks, achievements, and backup/restore.
+- ⏱️ <strong><a href="https://github.com/Johnkoder/lock-in-official">Lock In</a></strong> — A local-first productivity and focus app with focus sessions, activity tracking, backups, and timelapse features.
+- ✅ <strong><a href="https://github.com/Johnkoder/habit-rank-official">HabitRank</a></strong> — A gamified habit tracker built around habits, streaks, XP, ranks, achievements, and seasonal progression.
 
 <div align="center">
   <a href="https://git.io/streak-stats">
