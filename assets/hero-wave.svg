@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">John Alexis — Computer Science Student &amp; Software Developer</title>
+  <desc id="desc">Blue and purple animated wave header.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.45" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="1200" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#7C3AED" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#A371F7" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <text x="600" y="60" text-anchor="middle" fill="url(#grad)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="750">John Alexis</text>
+  <text x="600" y="94" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2">COMPUTER SCIENCE STUDENT  ·  SOFTWARE DEVELOPER</text>
+
+  <path fill="none" stroke="url(#grad)" stroke-width="4" stroke-linecap="round" d="M0 139 C120 105 220 173 340 139 S560 105 680 139 S900 173 1020 139 S1120 105 1200 139">
+    <animate attributeName="d" dur="5.5s" repeatCount="indefinite" values="M0 139 C120 105 220 173 340 139 S560 105 680 139 S900 173 1020 139 S1120 105 1200 139;M0 139 C120 173 220 105 340 139 S560 173 680 139 S900 105 1020 139 S1120 173 1200 139;M0 139 C120 105 220 173 340 139 S560 105 680 139 S900 173 1020 139 S1120 105 1200 139"/>
+  </path>
+
+  <path fill="none" stroke="url(#grad2)" stroke-width="2" stroke-linecap="round" d="M0 153 C140 127 240 179 380 153 S620 127 760 153 S1000 179 1200 153">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 153 C140 127 240 179 380 153 S620 127 760 153 S1000 179 1200 153;M0 153 C140 179 240 127 380 153 S620 179 760 153 S1000 127 1200 153;M0 153 C140 127 240 179 380 153 S620 127 760 153 S1000 179 1200 153"/>
+  </path>
+
+  <circle cx="600" cy="139" r="4" fill="#A371F7">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
