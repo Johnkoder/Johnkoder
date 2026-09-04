@@ -1,13 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="108" viewBox="0 0 1100 108" role="img" aria-label="Languages and tools section">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".52" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient></defs>
-<text x="22" y="63" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">02 / STACK</text>
-<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M210 54H365L405 28H550L585 54H732L770 82H930" stroke="#30363D" stroke-width="2"/>
-<path d="M210 54H365L405 28H550L585 54H732L770 82H930" stroke="url(#g)" stroke-width="2.5" stroke-dasharray="90 720">
-<animate attributeName="stroke-dashoffset" from="810" to="0" dur="5s" repeatCount="indefinite"/>
-</path>
-</g>
-<g fill="#0D1117" stroke-width="2"><circle cx="365" cy="54" r="7" stroke="#58A6FF"/><circle cx="405" cy="28" r="7" stroke="#6E5CFF"/><circle cx="585" cy="54" r="7" stroke="#7C3AED"/><circle cx="770" cy="82" r="7" stroke="#A371F7"/><circle cx="930" cy="82" r="7" stroke="#58A6FF"/></g>
-<rect x="965" y="31" width="70" height="46" rx="10" fill="none" stroke="#30363D"/>
-<path d="M984 47h32M984 57h22M984 67h27" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#58A6FF"/>
+      <stop offset=".52" stop-color="#6E5CFF"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="22" y="63" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">02 / STACK</text>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 54H365L405 28H550L585 54H732L770 82H914" stroke="#30363D" stroke-width="2"/>
+    <path d="M210 54H365L405 28H550L585 54H732L770 82H914" stroke="url(#g)" stroke-width="2.5" stroke-dasharray="90 720">
+      <animate attributeName="stroke-dashoffset" from="810" to="0" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#0D1117" stroke-width="2">
+    <circle cx="365" cy="54" r="7" stroke="#58A6FF"/>
+    <circle cx="405" cy="28" r="7" stroke="#6E5CFF"/>
+    <circle cx="585" cy="54" r="7" stroke="#7C3AED"/>
+    <circle cx="770" cy="82" r="7" stroke="#A371F7"/>
+    <circle cx="914" cy="82" r="7" stroke="#58A6FF"/>
+  </g>
+
+  <!-- branching endpoint constellation -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M921 82H964L986 60H1014" stroke="#30363D" stroke-width="1.6"/>
+    <path d="M964 82L990 82H1028" stroke="#30363D" stroke-width="1.6"/>
+    <path d="M964 82L986 96H1012" stroke="#30363D" stroke-width="1.6"/>
+
+    <path d="M921 82H964L986 60H1014" stroke="url(#g)" stroke-width="2" stroke-dasharray="36 120">
+      <animate attributeName="stroke-dashoffset" from="156" to="0" dur="3.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M964 82L990 82H1028" stroke="url(#g)" stroke-width="2" stroke-dasharray="30 110">
+      <animate attributeName="stroke-dashoffset" from="140" to="0" dur="4.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M964 82L986 96H1012" stroke="url(#g)" stroke-width="2" stroke-dasharray="28 105">
+      <animate attributeName="stroke-dashoffset" from="133" to="0" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="1010" y="56" width="8" height="8" rx="2" fill="#58A6FF" transform="rotate(45 1014 60)">
+      <animate attributeName="opacity" values=".55;1;.55" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="1028" cy="82" r="4.5" fill="#7C3AED">
+      <animate attributeName="opacity" values="1;.55;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="1008" y="92" width="8" height="8" rx="2" fill="#A371F7" transform="rotate(45 1012 96)">
+      <animate attributeName="opacity" values=".65;1;.65" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
