@@ -58,24 +58,16 @@ I'm **John Alexis** from the Philippines.
 
 Personal applications I've designed and built using an **AI-assisted development workflow**.
 
-<br>
-
-### 🏋️ [RankFit](https://github.com/Johnkoder/rankfit-official)
+**🏋️ [RankFit](https://github.com/Johnkoder/rankfit-official)**  
 A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
 
-<br><br>
-
-### 📚 [BookRank](https://github.com/Johnkoder/book-rank-official)
+**📚 [BookRank](https://github.com/Johnkoder/book-rank-official)**  
 An offline-first Android PDF reading tracker with bookmarks, reading statistics, ranks, achievements, and backup/restore.
 
-<br><br>
-
-### ⏱️ [Lock In](https://github.com/Johnkoder/lock-in-official)
+**⏱️ [Lock In](https://github.com/Johnkoder/lock-in-official)**  
 A local-first productivity and focus app with focus sessions, activity tracking, backups, and timelapse features.
 
-<br><br>
-
-### ✅ [HabitRank](https://github.com/Johnkoder/habit-rank-official)
+**✅ [HabitRank](https://github.com/Johnkoder/habit-rank-official)**  
 A gamified habit tracker built around habits, streaks, XP, ranks, achievements, and seasonal progression.
 
 <br>
