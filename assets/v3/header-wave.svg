@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">John Alexis — Computer Science Student &amp; Software Developer</title>
+  <desc id="desc">Blue and purple wavy animated header banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="55%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="60%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="40%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <g opacity="0.9" filter="url(#glow)">
+    <path fill="url(#g1)" fill-opacity="0.30">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 118 C 170 90, 290 178, 460 146 S 770 58, 930 120 S 1140 198, 1280 148 L1280 0 L0 0 Z;M0 132 C 176 188, 306 74, 470 122 S 760 196, 928 132 S 1142 78, 1280 118 L1280 0 L0 0 Z;M0 118 C 170 90, 290 178, 460 146 S 770 58, 930 120 S 1140 198, 1280 148 L1280 0 L0 0 Z"/>
+    </path>
+    <path fill="url(#g2)" fill-opacity="0.36">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 238 C 126 204, 254 294, 430 254 S 708 176, 888 228 S 1132 304, 1280 258 L1280 360 L0 360 Z;M0 248 C 144 304, 292 186, 456 238 S 710 300, 888 246 S 1120 174, 1280 230 L1280 360 L0 360 Z;M0 238 C 126 204, 254 294, 430 254 S 708 176, 888 228 S 1132 304, 1280 258 L1280 360 L0 360 Z"/>
+    </path>
+    <path fill="url(#g3)" fill-opacity="0.48">
+      <animate attributeName="d" dur="14s" repeatCount="indefinite" values="M0 282 C 126 240, 276 348, 446 306 S 730 212, 912 278 S 1142 338, 1280 300 L1280 360 L0 360 Z;M0 298 C 152 350, 300 246, 460 288 S 744 342, 918 292 S 1136 236, 1280 284 L1280 360 L0 360 Z;M0 282 C 126 240, 276 348, 446 306 S 730 212, 912 278 S 1142 338, 1280 300 L1280 360 L0 360 Z"/>
+    </path>
+  </g>
+  <g>
+    <text x="640" y="136" text-anchor="middle" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="700">John Alexis</text>
+    <text x="640" y="171" text-anchor="middle" fill="#C9D1D9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Computer Science Student &amp; Software Developer</text>
+    <text x="640" y="208" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1.6">idea → design → implementation → testing → release</text>
+  </g>
+  <g opacity="0.9">
+    <circle cx="415" cy="168" r="4" fill="#58A6FF"/>
+    <circle cx="865" cy="168" r="4" fill="#A371F7"/>
+    <path d="M428 168 H542" stroke="url(#g3)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M738 168 H852" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
