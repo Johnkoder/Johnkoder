@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="108" viewBox="0 0 1100 108" role="img" aria-label="Languages and tools section">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".52" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient></defs>
+<text x="22" y="63" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">02 / STACK</text>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M210 54H365L405 28H550L585 54H732L770 82H930" stroke="#30363D" stroke-width="2"/>
+<path d="M210 54H365L405 28H550L585 54H732L770 82H930" stroke="url(#g)" stroke-width="2.5" stroke-dasharray="90 720">
+<animate attributeName="stroke-dashoffset" from="810" to="0" dur="5s" repeatCount="indefinite"/>
+</path>
+</g>
+<g fill="#0D1117" stroke-width="2"><circle cx="365" cy="54" r="7" stroke="#58A6FF"/><circle cx="405" cy="28" r="7" stroke="#6E5CFF"/><circle cx="585" cy="54" r="7" stroke="#7C3AED"/><circle cx="770" cy="82" r="7" stroke="#A371F7"/><circle cx="930" cy="82" r="7" stroke="#58A6FF"/></g>
+<rect x="965" y="31" width="70" height="46" rx="10" fill="none" stroke="#30363D"/>
+<path d="M984 47h32M984 57h22M984 67h27" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+</svg>
