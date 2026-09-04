@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="96" viewBox="0 0 1100 96" role="img" aria-label="GitHub activity section">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset="1" stop-color="#A371F7"/></linearGradient><path id="p" d="M260 50h120l22-28 34 55 30-42 26 15h94l22-18 30 33 24-15h160"/></defs>
+<text x="22" y="59" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">04 / ACTIVITY</text>
+<use href="#p" fill="none" stroke="#30363D" stroke-width="2" stroke-linejoin="round"/>
+<use href="#p" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="120 700"><animate attributeName="stroke-dashoffset" from="820" to="0" dur="4.5s" repeatCount="indefinite"/></use>
+<circle r="5" fill="#A371F7"><animateMotion dur="4.5s" repeatCount="indefinite"><mpath href="#p"/></animateMotion></circle>
+<circle cx="1018" cy="50" r="18" fill="none" stroke="#30363D"/><circle cx="1018" cy="50" r="5" fill="#58A6FF"><animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/></circle>
+</svg>
