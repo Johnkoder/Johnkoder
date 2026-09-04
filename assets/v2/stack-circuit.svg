@@ -2,111 +2,54 @@
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#58A6FF"/>
-      <stop offset=".52" stop-color="#6E5CFF"/>
+      <stop offset=".45" stop-color="#6E5CFF"/>
       <stop offset="1" stop-color="#A371F7"/>
     </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <text x="22" y="63" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">02 / STACK</text>
 
-  <!-- static circuit: main route ends exactly at the splitter -->
+  <!-- Static circuit, matching the Selected Work base-line treatment -->
   <g fill="none" stroke="#30363D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M210 54H365L405 28H550L585 54H732L770 82H914L948 54H1000"/>
-    <path d="M1000 54H1016L1038 36H1062"/>
-    <path d="M1000 54H1016L1038 72H1062"/>
+    <path d="M1000 54H1018L1040 36H1064"/>
+    <path d="M1000 54H1018L1040 72H1064"/>
   </g>
 
-  <!-- one moving pulse on the main route -->
-  <path d="M210 54H365L405 28H550L585 54H732L770 82H914L948 54H1000"
-        pathLength="100"
-        fill="none"
-        stroke="url(#g)"
-        stroke-width="2.7"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="14 86"
-        filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset"
-             values="0;-86;-86"
-             keyTimes="0;.80;1"
-             dur="6s"
-             repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values="1;1;0;0"
-             keyTimes="0;.795;.80;1"
-             dur="6s"
-             repeatCount="indefinite"/>
-  </path>
+  <!--
+    Same motion language as Selected Work:
+    - 3px blue/purple gradient stroke
+    - 80/720 moving segment
+    - 800 -> 0 dash offset
+    - 6 second continuous loop
 
-  <!-- branch pulses share the SAME 6s clock and stay hidden until the main pulse reaches the splitter -->
-  <g fill="none" stroke="url(#g)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-    <path d="M1000 54H1016L1038 36H1062" pathLength="100" stroke-dasharray="18 82">
-      <animate attributeName="stroke-dashoffset"
-               values="0;0;-82;-82"
-               keyTimes="0;.80;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;.795;.80;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
+    These two routes are identical until x=1000, so their moving segments overlap
+    as one line and naturally split into two only when the pulse reaches the fork.
+  -->
+  <g fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".58">
+    <path d="M210 54H365L405 28H550L585 54H732L770 82H914L948 54H1000H1018L1040 36H1064"
+          pathLength="800"
+          stroke-dasharray="80 720">
+      <animate attributeName="stroke-dashoffset" from="800" to="0" dur="6s" repeatCount="indefinite"/>
     </path>
-    <path d="M1000 54H1016L1038 72H1062" pathLength="100" stroke-dasharray="18 82">
-      <animate attributeName="stroke-dashoffset"
-               values="0;0;-82;-82"
-               keyTimes="0;.80;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;.795;.80;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
+
+    <path d="M210 54H365L405 28H550L585 54H732L770 82H914L948 54H1000H1018L1040 72H1064"
+          pathLength="800"
+          stroke-dasharray="80 720">
+      <animate attributeName="stroke-dashoffset" from="800" to="0" dur="6s" repeatCount="indefinite"/>
     </path>
   </g>
 
-  <!-- fixed nodes on the main route -->
-  <g fill="#0D1117" stroke-width="2">
+  <!-- Nodes remain permanently visible -->
+  <g fill="#0D1117" stroke-width="2.5">
     <circle cx="365" cy="54" r="7" stroke="#58A6FF"/>
     <circle cx="405" cy="28" r="7" stroke="#6E5CFF"/>
     <circle cx="585" cy="54" r="7" stroke="#7C3AED"/>
     <circle cx="770" cy="82" r="7" stroke="#A371F7"/>
     <circle cx="914" cy="82" r="7" stroke="#58A6FF"/>
     <circle cx="948" cy="54" r="7" stroke="#7C3AED"/>
-  </g>
-
-  <!-- splitter activates only when the pulse arrives -->
-  <circle cx="1000" cy="54" r="4" fill="#7C3AED" opacity="0" filter="url(#glow)">
-    <animate attributeName="opacity"
-             values="0;0;1;1;0"
-             keyTimes="0;.795;.80;.98;1"
-             dur="6s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <!-- endpoint lights are also locked to the same branch phase -->
-  <g filter="url(#glow)">
-    <circle cx="1062" cy="36" r="5" fill="#58A6FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;0;.25;1;0"
-               keyTimes="0;.80;.90;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1062" cy="72" r="5" fill="#A371F7" opacity="0">
-      <animate attributeName="opacity"
-               values="0;0;.25;1;0"
-               keyTimes="0;.80;.90;.98;1"
-               dur="6s"
-               repeatCount="indefinite"/>
-    </circle>
+    <circle cx="1000" cy="54" r="6" stroke="#6E5CFF"/>
+    <circle cx="1064" cy="36" r="5" stroke="#58A6FF"/>
+    <circle cx="1064" cy="72" r="5" stroke="#A371F7"/>
   </g>
 </svg>
