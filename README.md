@@ -56,7 +56,12 @@ I'm **John Alexis** from the Philippines.
 
 <img src="./assets/v2/projects-route.svg" width="100%" alt="Featured Projects" />
 
-Personal applications I've designed and built using an **AI-assisted development workflow**.
+<div align="center">
+
+*Personal applications I've designed and built using an*  
+**✦ AI-assisted development workflow ✦**
+
+</div>
 
 **🏋️ [RankFit](https://github.com/Johnkoder/rankfit-official)**  
 A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
