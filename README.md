@@ -54,7 +54,7 @@ I'm **John Alexis** from the Philippines.
 
 <br>
 
-<img src="./assets/v2/projects-rail.svg" width="100%" alt="Featured Projects" />
+<img src="./assets/v2/projects-route.svg" width="100%" alt="Featured Projects" />
 
 Personal applications I've designed and built using an **AI-assisted development workflow**.
 
