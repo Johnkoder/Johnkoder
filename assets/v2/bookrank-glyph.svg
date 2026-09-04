@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="BookRank">
+<defs><linearGradient id="g" x1="10" y1="12" x2="62" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#A371F7"/><stop offset="1" stop-color="#58A6FF"/></linearGradient></defs>
+<circle cx="36" cy="36" r="30" fill="#0D1117" stroke="#30363D"/>
+<path d="M17 22c8-2 14 0 19 5v27c-5-5-11-7-19-5V22Zm38 0c-8-2-14 0-19 5v27c5-5 11-7 19-5V22Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M36 27v27" stroke="url(#g)" stroke-width="3"/>
+<path d="M47 22v13l4-3 4 3V23" fill="none" stroke="#A371F7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
