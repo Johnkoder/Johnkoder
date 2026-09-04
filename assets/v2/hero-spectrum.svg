@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
+<title id="t">John Alexis — Computer Science Student and Software Developer</title><desc id="d">Animated blue and purple wave profile header.</desc>
+<defs>
+<linearGradient id="g" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset=".5" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<filter id="glow" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<text x="600" y="72" text-anchor="middle" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">John Alexis</text>
+<text x="600" y="108" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2">COMPUTER SCIENCE STUDENT · SOFTWARE DEVELOPER</text>
+<path d="M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
+<animate attributeName="d" dur="6s" repeatCount="indefinite" values="M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160;M40 166 C180 214 300 116 440 168 S700 214 840 164 S1060 116 1160 168;M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160"/>
+</path>
+<path d="M40 183 C190 142 320 222 460 181 S720 140 860 184 S1060 220 1160 180" fill="none" stroke="url(#g)" stroke-opacity=".28" stroke-width="2" stroke-linecap="round">
+<animate attributeName="d" dur="8s" repeatCount="indefinite" values="M40 183 C190 142 320 222 460 181 S720 140 860 184 S1060 220 1160 180;M40 183 C190 222 320 142 460 184 S720 222 860 181 S1060 142 1160 184;M40 183 C190 142 320 222 460 181 S720 140 860 184 S1060 220 1160 180"/>
+</path>
+<circle cx="105" cy="150" r="3" fill="#58A6FF"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="1085" cy="198" r="3" fill="#A371F7"><animate attributeName="opacity" values="1;.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+</svg>
