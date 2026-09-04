@@ -41,10 +41,10 @@
   <img src="https://cdn.simpleicons.org/vercel/white" height="36" alt="vercel logo" />
 </div>
 
-<h3 align="left">🚀 Featured Vibe-Coded Projects</h3>
+<h3 align="left">🚀 Featured Projects</h3>
 
 <p>
-  These are apps I built through <strong>AI-assisted / vibe-coding workflows</strong>, taking ideas through design, implementation, testing, and release.
+  Personal applications I've designed and built using an <strong>AI-assisted development workflow</strong>.
 </p>
 
 - 🏋️ <strong><a href="https://github.com/Johnkoder/rankfit-official">RankFit</a></strong> — A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
