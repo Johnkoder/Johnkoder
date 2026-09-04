@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/v2/hero-spectrum.svg" width="100%" alt="John Alexis — Computer Science Student & Software Developer" />
+  <img src="./assets/v3/header-wave.svg" width="100%" alt="John Alexis — Computer Science Student & Software Developer" />
 </div>
 
 <br>
@@ -92,10 +92,12 @@ A gamified habit tracker built around habits, streaks, XP, ranks, achievements, 
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=Johnkoder&hide_border=true&border_radius=12&background=00000000&ring=7C3AED&fire=58A6FF&currStreakLabel=A371F7&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&v=3" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=Johnkoder&hide_border=true&border_radius=12&background=00000000&ring=7C3AED&fire=58A6FF&currStreakLabel=A371F7&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&v=4" alt="GitHub Streak" />
   </a>
 </div>
 
 <br>
 
-<p align="center"><sub>BUILD &nbsp;·&nbsp; LEARN &nbsp;·&nbsp; ITERATE &nbsp;·&nbsp; SHIP</sub></p>
+<div align="center">
+  <img src="./assets/v3/footer-wave.svg" width="100%" alt="Blue and purple footer wave" />
+</div>
