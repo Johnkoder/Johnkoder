@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="HabitRank">
+<defs><linearGradient id="g" x1="10" y1="12" x2="62" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset="1" stop-color="#A371F7"/></linearGradient></defs>
+<circle cx="36" cy="36" r="30" fill="#0D1117" stroke="#30363D"/>
+<path d="M20 38l9 9 22-25" fill="none" stroke="url(#g)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 54h10v-7h10v-7h10v-7h9" fill="none" stroke="#7C3AED" stroke-opacity=".65" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
