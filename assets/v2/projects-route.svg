@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="120" viewBox="0 0 1100 120" role="img" aria-label="Featured projects section">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".45" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient></defs>
 <text x="22" y="70" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">03 / FEATURED PROJECTS</text>
-<path d="M330 62 C425 18 520 108 615 62 S805 18 900 62" fill="none" stroke="#30363D" stroke-width="2"/>
-<path d="M330 62 C425 18 520 108 615 62 S805 18 900 62" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="80 720">
+<path d="M430 62 C525 18 620 108 715 62 S905 18 1000 62" fill="none" stroke="#30363D" stroke-width="2"/>
+<path d="M430 62 C525 18 620 108 715 62 S905 18 1000 62" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="80 720">
 <animate attributeName="stroke-dashoffset" from="800" to="0" dur="6s" repeatCount="indefinite"/>
 </path>
-<g fill="#0D1117" stroke-width="2.5"><circle cx="382" cy="43" r="13" stroke="#58A6FF"/><circle cx="525" cy="80" r="13" stroke="#6E5CFF"/><circle cx="716" cy="41" r="13" stroke="#7C3AED"/><circle cx="862" cy="77" r="13" stroke="#A371F7"/></g>
+<g fill="#0D1117" stroke-width="2.5"><circle cx="482" cy="43" r="13" stroke="#58A6FF"/><circle cx="625" cy="80" r="13" stroke="#6E5CFF"/><circle cx="816" cy="41" r="13" stroke="#7C3AED"/><circle cx="962" cy="77" r="13" stroke="#A371F7"/></g>
 <g stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" fill="none">
-<path d="M374 40h16M376 35v10M388 35v10"/>
-<path d="M518 74v12M532 74v12M518 74c5-2 9 0 14 3"/>
-<circle cx="716" cy="41" r="6"/><path d="M716 41v-4M716 41l4 2"/>
-<path d="M856 77l4 4 8-9"/>
+<path d="M474 40h16M476 35v10M488 35v10"/>
+<path d="M618 74v12M632 74v12M618 74c5-2 9 0 14 3"/>
+<circle cx="816" cy="41" r="6"/><path d="M816 41v-4M816 41l4 2"/>
+<path d="M956 77l4 4 8-9"/>
 </g>
 </svg>
