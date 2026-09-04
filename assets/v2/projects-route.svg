@@ -1,49 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="120" viewBox="0 0 1100 120" role="img" aria-label="Featured projects section">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58A6FF"/>
-      <stop offset=".45" stop-color="#6E5CFF"/>
-      <stop offset="1" stop-color="#A371F7"/>
-    </linearGradient>
-  </defs>
-
-  <text x="22" y="70" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">03 / SELECTED WORK</text>
-
-  <!-- quiet project rail -->
-  <path d="M350 62H1035" fill="none" stroke="#30363D" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- same motion language as STACK -->
-  <path d="M350 62H1035"
-        pathLength="800"
-        fill="none"
-        stroke="url(#g)"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-dasharray="80 720"
-        stroke-opacity=".58">
-    <animate attributeName="stroke-dashoffset" from="800" to="0" dur="6s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- four restrained project markers -->
-  <g fill="#0D1117" stroke-width="2.5">
-    <circle cx="430" cy="62" r="8" stroke="#58A6FF"/>
-    <circle cx="610" cy="62" r="8" stroke="#6E5CFF"/>
-    <circle cx="790" cy="62" r="8" stroke="#7C3AED"/>
-    <circle cx="970" cy="62" r="8" stroke="#A371F7"/>
-  </g>
-
-  <g fill="url(#g)">
-    <circle cx="430" cy="62" r="2.5"/>
-    <circle cx="610" cy="62" r="2.5"/>
-    <circle cx="790" cy="62" r="2.5"/>
-    <circle cx="970" cy="62" r="2.5"/>
-  </g>
-
-  <!-- subtle project numbering -->
-  <g fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" text-anchor="middle" letter-spacing="1">
-    <text x="430" y="91">01</text>
-    <text x="610" y="91">02</text>
-    <text x="790" y="91">03</text>
-    <text x="970" y="91">04</text>
-  </g>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".45" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient></defs>
+<text x="22" y="70" fill="url(#g)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700">03 / SELECTED WORK</text>
+<path d="M330 62 C425 18 520 108 615 62 S805 18 900 62" fill="none" stroke="#30363D" stroke-width="2"/>
+<path d="M330 62 C425 18 520 108 615 62 S805 18 900 62" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="80 720">
+<animate attributeName="stroke-dashoffset" from="800" to="0" dur="6s" repeatCount="indefinite"/>
+</path>
+<g fill="#0D1117" stroke-width="2.5"><circle cx="382" cy="43" r="13" stroke="#58A6FF"/><circle cx="525" cy="80" r="13" stroke="#6E5CFF"/><circle cx="716" cy="41" r="13" stroke="#7C3AED"/><circle cx="862" cy="77" r="13" stroke="#A371F7"/></g>
+<g stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" fill="none">
+<path d="M374 40h16M376 35v10M388 35v10"/>
+<path d="M518 74v12M532 74v12M518 74c5-2 9 0 14 3"/>
+<circle cx="716" cy="41" r="6"/><path d="M716 41v-4M716 41l4 2"/>
+<path d="M856 77l4 4 8-9"/>
+</g>
 </svg>
