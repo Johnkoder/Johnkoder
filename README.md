@@ -58,6 +58,9 @@ I'm **John Alexis** from the Philippines.
 
 <img src="./assets/v2/projects-intro.svg" width="100%" alt="Personal applications I've designed and built using an AI-assisted development workflow." />
 
+**💡 [IdeaHub](https://github.com/Johnkoder/idea-hub-official)**  
+A local-first Windows desktop workspace for brainstorming, notes, canvases, tasks, calendar, search, and personal organization.
+
 **🏋️ [RankFit](https://github.com/Johnkoder/rankfit-official)**  
 A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
 
