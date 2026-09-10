@@ -58,6 +58,9 @@ I'm **John Alexis** from the Philippines.
 
 <img src="./assets/v2/projects-intro.svg" width="100%" alt="Personal applications I've designed and built using an AI-assisted development workflow." />
 
+**📅 [Smalendar](https://github.com/Johnkoder/smalendar-official)**  
+A local-first Android calendar with AI-assisted planning, natural-language event and reminder drafts, availability checks, and local notifications.
+
 **💡 [IdeaHub](https://github.com/Johnkoder/idea-hub-official)**  
 A local-first Windows desktop workspace for brainstorming, notes, canvases, tasks, calendar, search, and personal organization.
 
