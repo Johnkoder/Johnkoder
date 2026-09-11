@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/v2/hero-spectrum.svg" width="100%" alt="John Alexis — Computer Science Student & Software Developer / AI Engineer" />
+  <img src="./assets/v2/hero-spectrum-ai.svg" width="100%" alt="John Alexis — Computer Science Student & Software Developer / AI Engineer" />
 </div>
 
 <br>
