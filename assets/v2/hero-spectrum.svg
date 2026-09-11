@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
-<title id="t">John Alexis — Computer Science Student and Software Developer</title><desc id="d">Animated blue and purple wave profile header.</desc>
+<title id="t">John Alexis — Computer Science Student and Software Developer / AI Engineer</title><desc id="d">Animated blue and purple wave profile header.</desc>
 <defs>
 <linearGradient id="g" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset=".5" stop-color="#6E5CFF"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
 <filter id="glow" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <text x="600" y="72" text-anchor="middle" fill="url(#g)" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">John Alexis</text>
-<text x="600" y="108" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2">COMPUTER SCIENCE STUDENT · SOFTWARE DEVELOPER</text>
+<text x="600" y="108" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2">COMPUTER SCIENCE STUDENT · SOFTWARE DEVELOPER / AI ENGINEER</text>
 <path d="M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
 <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160;M40 166 C180 214 300 116 440 168 S700 214 840 164 S1060 116 1160 168;M40 166 C180 116 300 214 440 164 S700 116 840 166 S1060 214 1160 160"/>
 </path>
