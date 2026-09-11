@@ -8,8 +8,8 @@
 
 I'm **John Alexis** from the Philippines.
 
-- 🔭 I’m a computer science student and software developer
-- 📚 I'm currently learning web development and graphic design
+- 🔭 I’m a Computer Science student and Software Developer/AI Engineer
+- 📚 I'm currently learning Full-Stack Development
 - 🚀 I like taking projects from **idea → design → implementation → testing → release**
 
 <br>
