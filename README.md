@@ -1,84 +1,93 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="John Alexis — building useful things, one idea at a time." />
-
-  <h3>Computer Science student · Software Developer / AI Engineer</h3>
-
-  <p>Based in the Philippines. Learning full-stack development.<br>Building apps for better planning, focus, and everyday progress.</p>
-
-  <p>
-    <a href="#selected-projects">Explore my projects</a> &nbsp; / &nbsp;
-    <a href="#my-toolkit">My toolkit</a> &nbsp; / &nbsp;
-    <a href="https://github.com/Johnkoder?tab=repositories">All repositories</a>
-  </p>
+  <img src="./assets/v2/hero-spectrum-ai.svg" width="100%" alt="John Alexis — Computer Science Student & Software Developer / AI Engineer" />
 </div>
 
-## Selected projects
+<br>
 
-I turn personal ideas into apps, from product decisions and interface design to testing and releases. I use AI coding tools throughout implementation and keep learning through each iteration.
+<img src="./assets/v2/about-orbit.svg" width="100%" alt="About Me" />
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📅 Smalendar</h3>
-      <p><sub>ANDROID · PUBLIC BETA</sub></p>
-      <p>A local-first calendar that turns everyday requests into AI-assisted event and reminder drafts for you to review.</p>
-      <p><a href="https://github.com/Johnkoder/smalendar-official">Explore project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💡 IdeaHub</h3>
-      <p><sub>WINDOWS · DESKTOP WORKSPACE</sub></p>
-      <p>A home for ideas, notes, visual canvases, and tasks. Built around a local workspace for personal organization.</p>
-      <p><a href="https://github.com/Johnkoder/idea-hub-official">Explore project →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏋️ RankFit</h3>
-      <p><sub>ANDROID · FITNESS &amp; PROGRESSION</sub></p>
-      <p>A workout timer with routines, XP, ranks, and streaks. Train offline and control your workout with voice commands.</p>
-      <p><a href="https://github.com/Johnkoder/rankfit-official">Explore project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📚 BookRank</h3>
-      <p><sub>ANDROID · READING &amp; PROGRESSION</sub></p>
-      <p>An offline PDF reading tracker with bookmarks, reading statistics, ranks, and achievements to track your progress.</p>
-      <p><a href="https://github.com/Johnkoder/book-rank-official">Explore project →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⏱️ Lock In</h3>
-      <p><sub>ANDROID · FOCUS &amp; PRODUCTIVITY</sub></p>
-      <p>A cozy Pomodoro app with focus sessions, activity tracking, and a Timelapse Studio. Keep your progress locally.</p>
-      <p><a href="https://github.com/Johnkoder/lock-in-official">Explore project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✅ HabitRank</h3>
-      <p><sub>ANDROID · IN DEVELOPMENT</sub></p>
-      <p>A habit tracker that turns everyday consistency into XP, streaks, ranks, achievements, and seasonal progression.</p>
-      <p><a href="https://github.com/Johnkoder/habit-rank-official">Explore project →</a></p>
-    </td>
-  </tr>
-</table>
+I'm **John Alexis** from the Philippines.
 
-<sub>These project pages contain app information and available releases. Application source code is not published in every repository.</sub>
+- 🔭 I’m a Computer Science student and Software Developer/AI Engineer
+- 📚 I'm currently learning Full-Stack Development
+- 🚀 I like taking projects from **idea → design → implementation → testing → release**
 
-## My toolkit
+<br>
 
-| Area | Technologies |
-| :--- | :--- |
-| Web | JavaScript · React · HTML · CSS |
-| Backend | Node.js · Express · MongoDB |
-| Mobile | Flutter · Dart |
-| Programming | Python |
-| Tools | Git · GitHub · Docker · Vercel |
+<img src="./assets/v2/stack-circuit.svg" width="100%" alt="Languages and Tools" />
 
-## What I'm working toward
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="43" alt="JavaScript" title="JavaScript" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="43" alt="HTML5" title="HTML5" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="43" alt="CSS3" title="CSS3" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="43" alt="Python" title="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="43" alt="React" title="React" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/express/8B949E" height="39" alt="Express" title="Express" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="43" alt="Node.js" title="Node.js" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="43" alt="MongoDB" title="MongoDB" />
+</p>
 
-- **Full-stack development:** strengthening how I connect interfaces, APIs, and data.
-- **Useful AI features:** helping people plan and organize with reviewable AI suggestions.
-- **Better apps:** refining the design, testing, and release process with every project.
+<p align="center"><sub>JavaScript &nbsp;·&nbsp; HTML &nbsp;·&nbsp; CSS &nbsp;·&nbsp; Python &nbsp;·&nbsp; React &nbsp;·&nbsp; Express &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; MongoDB</sub></p>
 
----
+<br>
 
-<p align="center"><sub>Idea → Design → Build → Test → Release → Improve</sub></p>
+<p align="center"><strong>🔧 Developer Tools</strong></p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="37" alt="Git" title="Git" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/8B949E" height="37" alt="GitHub" title="GitHub" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="37" alt="Docker" title="Docker" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vercel/8B949E" height="33" alt="Vercel" title="Vercel" />
+</p>
+
+<p align="center"><sub>Git &nbsp;·&nbsp; GitHub &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Vercel</sub></p>
+
+<br>
+
+<img src="./assets/v2/projects-route.svg" width="100%" alt="Featured Projects" />
+
+<img src="./assets/v2/projects-intro.svg" width="100%" alt="Personal applications I've designed and built using an AI-assisted development workflow." />
+
+**📅 [Smalendar](https://github.com/Johnkoder/smalendar-official)**  
+A local-first Android calendar with AI-assisted planning, natural-language event and reminder drafts, availability checks, and local notifications.
+
+**💡 [IdeaHub](https://github.com/Johnkoder/idea-hub-official)**  
+A local-first Windows desktop workspace for brainstorming, notes, canvases, tasks, calendar, search, and personal organization.
+
+**🏋️ [RankFit](https://github.com/Johnkoder/rankfit-official)**  
+A gamified Android workout timer with routines, XP, ranks, streaks, seasons, offline voice controls, and local backup/restore.
+
+**📚 [BookRank](https://github.com/Johnkoder/book-rank-official)**  
+An offline-first Android PDF reading tracker with bookmarks, reading statistics, ranks, achievements, and backup/restore.
+
+**⏱️ [Lock In](https://github.com/Johnkoder/lock-in-official)**  
+A local-first productivity and focus app with focus sessions, activity tracking, backups, and timelapse features.
+
+**✅ [HabitRank](https://github.com/Johnkoder/habit-rank-official)**  
+A gamified habit tracker built around habits, streaks, XP, ranks, achievements, and seasonal progression.
+
+<br>
+
+<img src="./assets/v2/activity-pulse.svg" width="100%" alt="GitHub Activity" />
+
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=Johnkoder&hide_border=true&border_radius=12&background=00000000&ring=7C3AED&fire=58A6FF&currStreakLabel=A371F7&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&v=4" alt="GitHub Streak" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/v3/footer-wave.svg" width="100%" alt="Blue and purple footer wave" />
+</div>
