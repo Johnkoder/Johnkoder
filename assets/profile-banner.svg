@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">John Alexis</title>
+  <desc id="description">Building useful things, one idea at a time. A midnight blue banner with blue and violet orbital lines and connected geometric shapes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A30"/>
+      <stop offset="1" stop-color="#17132C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="700" y1="280" x2="1180" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61C7FF"/>
+      <stop offset="1" stop-color="#B897FF"/>
+    </linearGradient>
+    <linearGradient id="underline" x1="64" y1="0" x2="296" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61C7FF"/>
+      <stop offset="1" stop-color="#B897FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#A6B8D7" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect x="670" width="530" height="320" fill="url(#grid)"/>
+    <circle cx="1040" cy="165" r="230" fill="#6B55C8" fill-opacity=".07"/>
+    <circle cx="1040" cy="165" r="162" stroke="url(#accent)" stroke-opacity=".18"/>
+    <circle cx="1040" cy="165" r="112" stroke="url(#accent)" stroke-opacity=".24"/>
+    <path d="M750 290L904 176L1030 218L1176 70" stroke="url(#accent)" stroke-width="2" stroke-opacity=".55"/>
+    <path d="M800 48L904 176L1044 102L1220 202" stroke="url(#accent)" stroke-width="2" stroke-opacity=".25"/>
+    <rect x="870" y="142" width="68" height="68" rx="16" fill="#182941" stroke="#61C7FF" stroke-width="2" transform="rotate(-12 904 176)"/>
+    <path d="M893 164L883 176L893 188M915 164L925 176L915 188M908 162L900 190" stroke="#9DDDFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1008" y="196" width="44" height="44" rx="12" fill="#251F41" stroke="#B897FF" stroke-width="2" transform="rotate(12 1030 218)"/>
+    <path d="M1020 218L1027 225L1040 211" stroke="#D5C2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1044" cy="102" r="7" fill="#B897FF"/>
+    <circle cx="800" cy="48" r="4" fill="#61C7FF"/>
+    <circle cx="1176" cy="70" r="5" fill="#B897FF"/>
+    <circle cx="750" cy="290" r="4" fill="#61C7FF"/>
+    <rect x="64" y="63" width="56" height="5" rx="2.5" fill="url(#underline)"/>
+    <text x="60" y="165" fill="#F3F6FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-3">John Alexis<tspan fill="#91B8FF">.</tspan></text>
+    <text x="64" y="221" fill="#B7C5DE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30">Building useful things, one idea at a time.</text>
+    <path d="M64 264H680" stroke="#899BBC" stroke-opacity=".18"/>
+    <rect x=".5" y=".5" width="1199" height="319" rx="19.5" stroke="#879BC2" stroke-opacity=".16"/>
+  </g>
+</svg>
